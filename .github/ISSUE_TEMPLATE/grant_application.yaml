@@ -15,3 +15,21 @@ body:
     label: Terms and Conditions
   validations:
     required: true
+
+- type: markdown
+  attributes:
+    value: '## Terms and Conditions'
+
+- type: checkboxes
+  id: terms_and_conditions_checkboxes
+  attributes:
+    label: Terms and Conditions
+    options:
+    - I agree to the [Grant Agreement]() terms if funded
+    - I agree to [Provide KYC information]() if funded above $50,000 USD
+    - I agree to disclose conflicts of interest
+    - I agree to adhere to the [Code of Conduct]()
+    - I agree to post request details on the [Community Forum]()
+    - _Link to this issue on forum (do after application has been submitted)
+  validations:
+    required: true
