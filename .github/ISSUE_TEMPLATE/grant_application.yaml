@@ -1,4 +1,4 @@
-name: Grant Application - (ID, Project Name)
+name: 'Grant Application - (ID, Project Name)
 description: Zcash Community Grants Application Form
 body:
 
@@ -7,16 +7,9 @@ body:
     value: |
       Terms and Conditions
 
-- type: checkboxes
-  id: terms_and_conditions_checkboxes
+- type: input
+  id: applicant_information_organization_name
   attributes:
-    label: Terms and Conditions
-    options:
-    - I agree to the [Grant Agreement]() terms if funded
-    - I agree to [Provide KYC information]() if funded above $50,000 USD
-    - I agree to disclose conflicts of interest
-    - I agree to adhere to the [Code of Conduct]()
-    - I agree to post request details on the [Community Forum]()
-    - _Link to this issue on forum (do after application has been submitted)
+    label: Organization Name
   validations:
     required: true
