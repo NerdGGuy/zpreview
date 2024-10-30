@@ -1,15 +1,17 @@
-name: 'Grant Application - (ID, Project Name)
-description: Zcash Community Grants Application Form
+name: Grant Application
+description: Submit a grant application to Zcash Community Grants
+title: Grant Application - (ID, Project Name)
+labels:
+- Grant Application
 body:
 
 - type: markdown
   attributes:
-    value: |
-      Terms and Conditions
+    value: '## Terms and Conditions'
 
-- type: input
-  id: applicant_information_organization_name
+- type: textarea
+  id: terms_and_conditions
   attributes:
-    label: Organization Name
+    label: Terms and Conditions
   validations:
     required: true
