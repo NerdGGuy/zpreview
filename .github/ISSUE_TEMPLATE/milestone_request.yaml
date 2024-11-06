@@ -1,6 +1,7 @@
 name: Milestone Request
 description: Milestone Request
 title: Milestone Request
+hidden: true
 labels:
 - Milestone Request
 body:
