@@ -1,7 +1,7 @@
 ---
 title: "Grant Application - (ID, test)"
 issue_number: 6
-created_at: 2024-10-30T15:20:08Z
+created_at: 2024-10-30T15:21:53Z
 author: "NerdGGuy"
 protected: true
 ---
@@ -33,7 +33,7 @@ protected: true
 
 ### Requested Grant Amount (USD)
 
-123
+1234
 
 ### Category
 
